@@ -9,6 +9,7 @@ if [ -f /etc/bashrc ]; then
 fi
 
 source $HOME/.bashrc
+source $HOME/.bash_profile
 
 # load conda env from file
 CONDA_ENV=`cat /tmp/rstudio-server/${USER}_current_env`
